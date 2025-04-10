@@ -47,17 +47,22 @@ create-pug-app nombre-del-proyecto
     
 ## Estructura del Proyecto Generado
 mi-nueva-app/
-├── app.js               # Archivo principal que configura y arranca el servidor Express
-├── package.json         # Archivo de configuración del proyecto con metadatos, scripts y dependencias
-├── /routes              # Carpeta para definir las rutas de la aplicación
-│   └── index.js         # Ejemplo de ruta principal
-├── /views               # Carpeta que contiene las plantillas en Pug
-│   └── index.pug        # Vista principal renderizada en la raíz
-└── /public              # Archivos estáticos (CSS, JS, imágenes)
-- ├── /css
-        │   └── estilos.css  # Ejemplo de hoja de estilo
-        └── /js
-            └── app.js       # Ejemplo de archivo JavaScript para el frontend
+- ├── app.js                (Archivo principal que configura y arranca el servidor Express)
+
+- ├── package.json          ( Archivo de configuración del proyecto con metadatos, scripts y dependencias)
+  
+- ├── /routes               ( Carpeta para definir las rutas de la aplicación)
+    - │── index.js          ( Ejemplo de ruta principal)
+      
+- ├── /views                ( Carpeta que contiene las plantillas en Pug)
+    - │── index.pug         ( Vista principal renderizada en la raíz)
+      
+- └── /public               ( Archivos estáticos (CSS, JS, imágenes) )
+    - ├── /css
+        - │── estilos.css   ( Ejemplo de hoja de estilo)
+          
+    - ├── /js
+        - │── app.js        ( Ejemplo de archivo JavaScript para el frontend)
 
 ## Nota: 
 En caso de que se clonen el github solo tiene que ir mira la parte del USO, y en el mismo directorio se te crea la carpeta con el nombre del proyecto, depues la podes mover de lugar, el chiste es usar npx. 
