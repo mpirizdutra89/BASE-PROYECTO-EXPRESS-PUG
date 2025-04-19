@@ -9,7 +9,7 @@ async function init() {
   const answers = await inquirer.prompt([
     { name: 'name', message: 'Nombre del proyecto:' },
     { name: 'description', message: 'Descripción:', default: 'Proyecto base con Express y Pug' },
-    { name: 'version', message: 'Versión:', default: '1.0.0' },
+    { name: 'version', message: 'Versión:', default: '0.0.1' },
     { name: 'author', message: 'Autor:' },
   ]);
 
@@ -42,12 +42,16 @@ async function init() {
     author: answers.author,
     main: "app.js",
     scripts: {
-      start: "node app.js"
+      start: "node app.js",
+	  dev:	"nodemon app.js"
     },
     dependencies: {
       express: "^4.18.2",
       pug: "^3.0.2"
-    }
+    },
+	devDependencies: {
+    nodemon: "^3.1.9"
+	}
   };
 
   fs.writeFileSync(path.join(projectDir, 'package.json'), JSON.stringify(pkg, null, 2));
