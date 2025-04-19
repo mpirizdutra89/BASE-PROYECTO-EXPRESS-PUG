@@ -1,16 +1,16 @@
 {
   "name": "create-pug-app-base",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generador de proyectos Express + Pug",
   "main": "index.js",
   "bin": {
     "create-pug-app-base": "index.js"
   },
   "scripts": {
-  "release:patch": "npm version patch && npm publish",
-  "release:minor": "npm version minor && npm publish",
-  "release:major": "npm version major && npm publish"
-},
+    "release:patch": "npm version patch && npm publish",
+    "release:minor": "npm version minor && npm publish",
+    "release:major": "npm version major && npm publish"
+  },
   "dependencies": {
     "inquirer": "^9.0.0"
   }
