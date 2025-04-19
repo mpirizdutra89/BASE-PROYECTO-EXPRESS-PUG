@@ -2,6 +2,11 @@
   "name": "create-pug-app-base",
   "version": "1.0.2",
   "description": "Generador de proyectos Express + Pug",
+  "author": {
+  "name": "Martin Piriz",
+  "email": "mpirizdutra@gmail.com",
+  "url": "https://github.com/mpirizdutra89"
+  },
   "main": "index.js",
   "bin": {
     "create-pug-app-base": "index.js"
