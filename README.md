@@ -22,6 +22,11 @@ npx create-pug-app-base nombre-del-proyecto
 Si deseas instalarlo globalmente (opcional):
 ```bash
 npm install -g create-pug-app-base
+(adicional:
+npm uninstall -g create-pug-app-base -> desintalar y poder intalar una vercion nueva
+npm list -g create-pug-app-base -> ver la vercion
+)
+
 ```
 Y luego podrás usar el comando:
 ```bash
