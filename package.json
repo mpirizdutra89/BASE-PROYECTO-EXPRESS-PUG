@@ -1,6 +1,6 @@
 {
   "name": "create-pug-app-base",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Generador de proyectos Express + Pug",
   "main": "index.js",
   "bin": {
