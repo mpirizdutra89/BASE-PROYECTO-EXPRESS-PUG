@@ -25,7 +25,7 @@ npm install -g create-pug-app-base
 ```
 Y luego podrás usar el comando:
 ```bash
-create-pug-app nombre-del-proyecto
+create-pug-app-base nombre-del-proyecto
 ```
 
 ## Uso 📦
@@ -35,11 +35,11 @@ create-pug-app nombre-del-proyecto
     Se te preguntará( no son obligatorios):
         Nombre del proyecto,Descripción,Versión,Autor    
     ```   
-2) Instalación de dependencias 🛠️:
+2) Instalación de dependencias 🛠�?
     ```sh
     Una vez generado el proyecto, el generador instalará automáticamente las dependencias (como express y pug). Si en algún momento necesitas reinstalarlas, entra al directorio del proyecto y ejecuta: npm install
     ```
-3) Ejecutar el proyecto 🛠️:
+3) Ejecutar el proyecto 🛠�?
     ```sh
     En el directorio del proyecto generado, inicia el servidor con:npm start
     Abre tu navegador y visita http://localhost:3000 para ver la aplicación en funcionamiento.
@@ -67,7 +67,7 @@ mi-nueva-app/
 ## Nota: 
 En caso de que se clonen el github solo tiene que ir mira la parte del USO, y en el mismo directorio se te crea la carpeta con el nombre del proyecto, depues la podes mover de lugar, el chiste es usar npx. 
 Subi el proyecto por si alguno quiere modificarlo y subir su propio paquete, aunque la parte de subirlo a npm se los dejo de tarea.
-## 👨‍💻 Autor
+## 👨‍�?Autor
 mpirizdutra
 GitHub: https://github.com/mpirizdutra89/
 Email: mpirizdutra@gmail.com
