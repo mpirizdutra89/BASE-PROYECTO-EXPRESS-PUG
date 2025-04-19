@@ -1,6 +1,6 @@
 {
   "name": "create-pug-app-base",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Generador de proyectos Express + Pug",
   "author": {
     "name": "Martin Piriz",
